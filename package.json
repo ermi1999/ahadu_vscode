@@ -10,16 +10,29 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "ahadu",
-      "aliases": ["Ahadu", "ahadu"],
-      "extensions": [".ah"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "ahadu",
-      "scopeName": "source.ahadu",
-      "path": "./syntaxes/ahadu.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "ahadu",
+        "aliases": [
+          "Ahadu",
+          "ahadu"
+        ],
+        "extensions": [
+          ".ah"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/ahadu.svg",
+          "dark": "./icons/ahadu.svg"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ahadu",
+        "scopeName": "source.ahadu",
+        "path": "./syntaxes/ahadu.tmLanguage.json"
+      }
+    ]
   }
 }
