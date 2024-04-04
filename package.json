@@ -1,0 +1,25 @@
+{
+  "name": "ahadu",
+  "displayName": "Ahadu",
+  "description": "An extension for ahadu programming language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ahadu",
+      "aliases": ["Ahadu", "ahadu"],
+      "extensions": [".ah"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ahadu",
+      "scopeName": "source.ahadu",
+      "path": "./syntaxes/ahadu.tmLanguage.json"
+    }]
+  }
+}
