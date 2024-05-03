@@ -1,4 +1,4 @@
-# ahadu README
+# ahadu-vscode
 
 This is the README for your extension "ahadu". it allows ahadu source code Syntax highlighting.
 
