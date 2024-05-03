@@ -8,11 +8,11 @@ this extension allows ahadu programming languge to have syntax highlighting on v
 
 ### Before the extension
 
-![ Before]("https://github.com/ermi1999/ahadu_vscode/images/before.png")
+![Before](https://github.com/ermi1999/ahadu_vscode/images/before.png?raw=true)
 
 ### After the extension
 
-![ After]("https://github.com/ermi1999/ahadu_vscode/images/after.png")
+![After](https://github.com/ermi1999/ahadu_vscode/images/after.png?raw=true)
 
 ## Requirements
 
